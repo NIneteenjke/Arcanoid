@@ -18,7 +18,7 @@ public class MoveBall : MonoBehaviour
         // if(Input.GetMouseButtonDown(0))
         // {
         rigidbody.transform.Translate(1,0,0);
-        rigidbody.velocity= new Vector3(Random.Range(2f,10f)*Time.deltaTime*speed_ball, 0,Random.Range(2f,10f)*Time.deltaTime*speed_ball);
+        rigidbody.velocity= new Vector3(Random.Range(1f,10f)*Time.deltaTime*speed_ball, 0,Random.Range(1f,10f)*Time.deltaTime*speed_ball-3);
         
         // }
     }

@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Board.cs" />
      <Compile Include="Assets\Scripts\MoveBall.cs" />
+     <Compile Include="Assets\Scripts\RestartAndExit.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity Hub/2019.4.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
